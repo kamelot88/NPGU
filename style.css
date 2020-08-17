@@ -179,11 +179,11 @@ header {
 }
 #logo {
     width: 100%;
-    height: 11.57vh;
+    height: 20vh;
     background-color: #242b2e;
 }
 #logo img {
-    width: 13vw;
+    width: 15vw;
     margin: auto;
 }
 .main_nav ul a {
@@ -330,6 +330,7 @@ main {
 .main_nav .active {
   background-color: #242b2e;
     background-image: linear-gradient(0.0deg, rgba(0,0,0,0.09) 0%, rgba(255,255,255,0.09) 100%);
+    box-shadow: 0 0 7px 1px black;
 }
 #info_box svg {
   height: .88vw;
@@ -373,27 +374,27 @@ main {
 .white {
   background-color: #fff;
 }
-.info_work_box {
+.info_work_box, .info_home_box {
   width: 100%;
   height: auto;
   position: relative;
 }
 .info_work_box .left_info,
 .info_work_box .right_info,
-.info_about_box .right_info,
-.info_about_box .left_info {
+.info_home_box .right_info,
+.info_home_box .left_info {
   width: 48%;
 }
-.info_work_box .left_info .img_box_work {
+.info_work_box .left_info .img_box_work, .info_home_box .left_info .img_box_home {
   width: 100%;
   overflow: hidden;
   height: 29.16vw;
 }
-.info_work_box .left_info .img_box_work img {
+.info_work_box .left_info .img_box_work img, .info_home_box .left_info .img_box_home img {
   width: 100%;
   height: auto;
 }
-.info_work_box .left_info .about_work {
+.info_work_box .left_info .about_work, .info_home_box .left_info .about_home {
   margin-top: 1.3vw;
   padding-bottom: 1.6vw;
   border-bottom: 1px solid;
@@ -401,17 +402,17 @@ main {
   font-size: .93vw;
   line-height: 1.56vw;
 }
-.info_work_box .left_info .about_work h1, .title_info {
+.info_work_box .left_info .about_work h1, .title_info, .info_home_box .left_info .about_home h1, .title_info {
   color: #000000;
   font-size: 1.25vw;
   line-height: 1.35vw;
   font-weight: 400;
   margin-bottom: 1vw;
 }
-.info_work_box .left_info .about_work p {
+.info_work_box .left_info .about_work p, .info_home_box .left_info .about_home p {
   margin-bottom: 2.39vw;
 }
-.info_work_box .left_info .about_work p:last-child {
+.info_work_box .left_info .about_work p:last-child, .info_home_box .left_info .about_home p:last-child {
   margin-bottom: 0;
 }
 .pr_rel {
