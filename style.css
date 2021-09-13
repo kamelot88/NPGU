@@ -394,6 +394,7 @@ main {
 .info_work_box .left_info .img_box_work img, .info_home_box .left_info .img_box_home img {
   width: 100%;
   height: auto;
+  box-shadow: 7px 3px 20px 0px rgb(0 0 0 / 50%);
 }
 .info_work_box .left_info .about_work, .text-kontent, .info_home_box .left_info .about_home {
   margin-top: 1.3vw;
@@ -517,46 +518,36 @@ main {
     font-weight: 400;
     margin-bottom: 1vw;
 }
-#relaxation>h2>img {
-  height: 50px;
-  margin-right: 10px;
+#relaxation {
+  font-family: 'Roboto', sans-serif;
+  color: #6b7072;
 }
 
-.info {
-  width: 100%;
-  overflow: hidden;
-  height: 100vh;
-  background: url(img/colag.png);
-  background-repeat: repeat;
-  /* background-attachment: fixed; */
-}
-#relaxation .title-relaxation {
-  margin: 0 auto;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-#relaxation>h2>img {
-  height: 50px;
-  margin-right: 10px;
-}
 #relaxation .photo-main {
   width: 350px;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 .click-block {
   cursor: pointer;
-  color: #333333;
+  color: #a3a3a3;
   font-weight: 900;
   font-size: 26px;
-  opacity: 0.83;
-  margin-bottom: 4vh;
+  opacity: 0.85;
+  margin-bottom: 70px;
+  border-bottom: 2px solid #e5e5e5;
 }
 #relaxation h3 {
-  color: #333333;
+  color: #a3a3a3;
   font-weight: 700;
   opacity: 0.72;
   font-size: 20px;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
+}
+.azov {
+  width: 100%;
+}
+.add {
+  width: 100%;
 }
 .conteiner-content {
   margin-bottom: 40px;
@@ -564,47 +555,53 @@ main {
   width: 100%;
 }
 #relaxation .text-main {
-  width: 350px;
-  /* font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal; */
+  width: 500px;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   opacity: 0.78;
   text-align: justify;
 }
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 75%;
   margin-bottom: 30px;
-  font-size: 16px;
-  line-height: 24px;
-  opacity: 0.78;
+  color: #a3a3a3;
+  align-self: center;
+  
 }
 caption {
   font-weight: 700;
   margin-bottom: 20px;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 36px;
-  color: #333333;
-  opacity: 0.72;
 }
 th, td {
-  border: 1px solid rgb(34, 33, 33);
+  border: 1px solid #a3a3a3;
   height: 30px;
   text-align: center;
   vertical-align: middle;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 36px;
-  color: #333333;
-  opacity: 0.72;
+  line-height: 24px;
+  opacity: 0.78;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.78;
 }
 th {
   font-weight: 700;
 }
+#relaxation .btn {
+  width: 120px;
+  height: 40px;
+  background: linear-gradient(#f6cf02, #bd8700);
+  border-radius: 5px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #F7F7F7;
+  box-shadow: 0 0 15px rgb(0 0 0 / 50%);
+}
+
+
