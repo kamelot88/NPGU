@@ -163,7 +163,7 @@ li {
 
 /* Начало общих стилей */
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     background-color: #6b7072;
 }
 header {
@@ -172,7 +172,7 @@ header {
     left: 0;
     z-index: 50;
     height: 100vh;
-    width: 15.62vw;
+    width: 18.62vw;
     background-color: #242b2e;
     color: #6b7072;
     box-shadow: 0 0 17px 10px rgba(70, 70, 70, 0.55);
@@ -222,8 +222,8 @@ header {
     text-align: right;
 }
 #filter ul a {
-    font-size: 0.67vmax;
-    line-height: 1.25vmax;
+    font-size: 0.8vmax;
+    line-height: 1.6vmax;
     font-weight: 300;
     text-align: right;
     color: #6b7072;
@@ -373,6 +373,7 @@ main {
 }
 .white {
   background-color: #fff;
+  padding: 7vw;
 }
 .info_work_box, .info_home_box {
   width: 100%;
@@ -394,7 +395,7 @@ main {
   width: 100%;
   height: auto;
 }
-.info_work_box .left_info .about_work, .info_home_box .left_info .about_home {
+.info_work_box .left_info .about_work, .text-kontent, .info_home_box .left_info .about_home {
   margin-top: 1.3vw;
   padding-bottom: 1.6vw;
   border-bottom: 1px solid;
@@ -402,14 +403,35 @@ main {
   font-size: .93vw;
   line-height: 1.56vw;
 }
-.info_work_box .left_info .about_work h1, .title_info, .info_home_box .left_info .about_home h1, .title_info {
+.canvas-wrap {
+  position: relative;
+  padding: 30px;
+}
+#canvas {
+  position: absolute;
+  /* top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; */
+}
+.plane {
+  width: 100%;
+  height: auto;
+}
+.plane img {
+  display: none;
+}
+
+
+
+.info_work_box .left_info .about_work h1, .text-kontent h1, .title_info, .info_home_box .left_info .about_home h1, .title_info {
   color: #000000;
   font-size: 1.25vw;
   line-height: 1.35vw;
   font-weight: 400;
   margin-bottom: 1vw;
 }
-.info_work_box .left_info .about_work p, .info_home_box .left_info .about_home p {
+.info_work_box .left_info .about_work p, .text-kontent p, .info_home_box .left_info .about_home p {
   margin-bottom: 2.39vw;
 }
 .info_work_box .left_info .about_work p:last-child, .info_home_box .left_info .about_home p:last-child {
@@ -478,4 +500,111 @@ main {
   height: calc(100% + 1.26vw);
   width: 1px;
   background-color: #e5e5e5;
+}
+.text-kontent-wrap p {
+  text-align: justify;
+}
+.list-roman {
+  list-style: upper-roman;
+}
+.list-decimal {
+  list-style: decimal;
+}
+.title-relaxation {
+  color: #000000;
+    font-size: 1.25vw;
+    line-height: 1.35vw;
+    font-weight: 400;
+    margin-bottom: 1vw;
+}
+#relaxation>h2>img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.info {
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  background: url(img/colag.png);
+  background-repeat: repeat;
+  /* background-attachment: fixed; */
+}
+#relaxation .title-relaxation {
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+#relaxation>h2>img {
+  height: 50px;
+  margin-right: 10px;
+}
+#relaxation .photo-main {
+  width: 350px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.click-block {
+  cursor: pointer;
+  color: #333333;
+  font-weight: 900;
+  font-size: 26px;
+  opacity: 0.83;
+  margin-bottom: 4vh;
+}
+#relaxation h3 {
+  color: #333333;
+  font-weight: 700;
+  opacity: 0.72;
+  font-size: 20px;
+  margin-bottom: 2vh;
+}
+.conteiner-content {
+  margin-bottom: 40px;
+  color: #a3a3a3;
+  width: 100%;
+}
+#relaxation .text-main {
+  width: 350px;
+  /* font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal; */
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.78;
+  text-align: justify;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.78;
+}
+caption {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  color: #333333;
+  opacity: 0.72;
+}
+th, td {
+  border: 1px solid rgb(34, 33, 33);
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 36px;
+  color: #333333;
+  opacity: 0.72;
+}
+th {
+  font-weight: 700;
 }
