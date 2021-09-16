@@ -389,12 +389,12 @@ main {
 .info_work_box .left_info .img_box_work, .info_home_box .left_info .img_box_home {
   width: 100%;
   overflow: hidden;
-  height: 29.16vw;
+  /* height: 29.16vw; */
 }
 .info_work_box .left_info .img_box_work img, .info_home_box .left_info .img_box_home img {
   width: 100%;
   height: auto;
-  box-shadow: 7px 3px 20px 0px rgb(0 0 0 / 50%);
+  box-shadow: 0 0 17px 10px rgb(70 70 70 / 55%);
 }
 .info_work_box .left_info .about_work, .text-kontent, .info_home_box .left_info .about_home {
   margin-top: 1.3vw;
@@ -473,7 +473,7 @@ main {
   border: 1.0px solid #dbdbdb;
   border-radius: 15px;
 }
-.right_info .pr_gal .pr_gal_images div {
+.right_info .pr_gal .pr_gal_images div, .pr_gal .pr_gal_images div {
   height: 4.06vw;
   width: 4.06vw;
   background-color: #dbdbdb;
@@ -538,6 +538,7 @@ main {
 }
 #relaxation h3 {
   color: #a3a3a3;
+  color: #000000;
   font-weight: 700;
   opacity: 0.72;
   font-size: 20px;
@@ -549,22 +550,27 @@ main {
 .add {
   width: 100%;
 }
+.conteiner-content > .text-main {
+  width: 500px;
+}
 .conteiner-content {
   margin-bottom: 40px;
   color: #a3a3a3;
   width: 100%;
 }
 #relaxation .text-main {
-  width: 500px;
   font-size: 16px;
   line-height: 26px;
   opacity: 0.78;
   text-align: justify;
 }
+.pr_text, .pr_gal {
+  width: 40%;
+}
 table {
   border-collapse: collapse;
   width: 75%;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   color: #a3a3a3;
   align-self: center;
   
@@ -572,6 +578,7 @@ table {
 caption {
   font-weight: 700;
   margin-bottom: 20px;
+  
 }
 th, td {
   border: 1px solid #a3a3a3;
@@ -603,5 +610,16 @@ th {
   color: #F7F7F7;
   box-shadow: 0 0 15px rgb(0 0 0 / 50%);
 }
-
-
+.title-page {
+  color: #000000;
+  font-size: 1.25vw;
+  line-height: 1.35vw;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.about_work p {
+  margin-bottom: 5px;
+}
+.logo-web {
+  width: 10px;
+}
