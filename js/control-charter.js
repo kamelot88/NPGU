@@ -1,4 +1,6 @@
 
+
+
 // Якоря_начало
 const tag1 = document.querySelector("#filter > ul > li:nth-child(1) > a");
 const tag2 = document.querySelector("#filter > ul > li:nth-child(2) > a");
@@ -10,9 +12,13 @@ const tag7 = document.querySelector("#filter > ul > li:nth-child(7) > a");
 const tag8 = document.querySelector("#filter > ul > li:nth-child(8) > a");
 
 
+
+
+
+
 window.onscroll = function () {
    let scrollTop = window.pageYOffset;
-  if (scrollTop >= 0 && scrollTop < 688) {
+   if (scrollTop >= 0 && scrollTop < 688) {
     tag1.classList.add('scroll');
     tag2.classList.remove('scroll');
     tag3.classList.remove('scroll');
@@ -93,6 +99,7 @@ window.onscroll = function () {
    tag8.classList.add('scroll');
   }
 };
+
 
 // if (document.documentElement.clientWidth <= 767 && document.documentElement.clientWidth >= 375) {
 
