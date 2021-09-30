@@ -14,7 +14,7 @@ info.onclick = function () {
 //! Реализация кнопки scrollStart (возвращение на начало страницы)
 
 const scrollStart = document.querySelector("#scroll-start")
-
+scrollStart.style.display = 'none';
 window.onscroll = function() {
    if (window.pageYOffset >= "400") {
        scrollStart.style.display = 'block'

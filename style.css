@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
 /* Reset */
 @charset "utf-8"; 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background: none repeat scroll 0 0 transparent;border: 0 none;font-size: 100%;outline: 0 none;vertical-align: baseline;margin: 0;padding: 0;}table{border-collapse:collapse;border-spacing:0;}address,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,nav,menu,nav,section,summary{display:block;}  a, a:hover,button,button:hover, .anime, .small_btn, .btn:hover .small_btn   {-moz-transition:all 200ms linear;-ms-transition:all 200ms linear;-o-transition:all 200ms linear;-webkit-transition:all 200ms linear;transition:all 200ms linear;}  button{cursor:pointer;}  *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;} 
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background: none repeat scroll 0 0 transparent;border: 0 none;
+font-size: 100%;
+outline: 0 none;
+vertical-align: baseline;
+margin: 0;
+padding: 0;}
+table{border-collapse:collapse;border-spacing:0;}
+address,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,nav,menu,nav,section,summary{display:block;}  a, a:hover,button,button:hover, .anime, .small_btn, .btn:hover .small_btn   {-moz-transition:all 200ms linear;-ms-transition:all 200ms linear;-o-transition:all 200ms linear;-webkit-transition:all 200ms linear;transition:all 200ms linear;}  button{cursor:pointer;}  *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;} 
 */ a,
 a:hover,
 button,
@@ -177,6 +186,11 @@ header {
     color: #6b7072;
     box-shadow: 0 0 17px 10px rgba(70, 70, 70, 0.55);
 }
+.logo-developer {
+  font-family: 'Cinzel', serif;
+  color: #0087bd;
+  font-weight: 700;
+}
 #logo {
     width: 100%;
     height: 20vh;
@@ -254,7 +268,7 @@ header {
 #cop {
   width: 100%;
   text-align: right;
-  font-size: 0.62vmax;
+  font-size: .8vmax;
   line-height: 1.3vmax;
   font-weight: 100;
   color: #6b7072;
@@ -377,9 +391,10 @@ main {
 .white {
   background-color: #fff;
   padding: 7vw;
+  overflow: hidden;
 }
 .info_work_box, .info_home_box {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
   position: relative;
 }
@@ -454,8 +469,8 @@ main {
   margin-top: 1.3vw;
 }
 .rel_images div {
-  width: 12.5vw;
-  height: 9.48vw;
+  width: 15vw;
+  height: auto;
 }
 .rel_images div img {
   width: 100%;
@@ -481,6 +496,14 @@ main {
     font-size: .93vw;
     line-height: 1.56vw;
 }
+.pr_info .bold-text {
+  font-weight: bold;
+}
+.pr_info .text_info > a {
+  color: #a3a3a3;
+    font-size: .93vw;
+    line-height: 1.56vw;
+}
 .right_info .pr_info ul li img {
   height: 1.56vw;
   margin-right: .67vw;
@@ -500,6 +523,9 @@ main {
   margin-right: .55vw;
   border: 1.0px solid #dbdbdb;
   border-radius: 15px;
+}
+.tags .list_tags .tag:hover {
+  cursor: pointer;
 }
 .right_info .pr_gal .pr_gal_images div, .pr_gal .pr_gal_images div {
   height: 4.06vw;
@@ -536,6 +562,7 @@ main {
 .list-roman {
   list-style: upper-roman;
   margin-bottom: 40px;
+  border-bottom: 1px solid;
 }
 .list-decimal {
   list-style: decimal;
@@ -665,7 +692,7 @@ th {
   width: 10px;
 }
 #scroll-start {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: calc(70vh);
   right: 30px;

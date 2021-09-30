@@ -1,6 +1,5 @@
 
 
-
 // Якоря_начало
 const tag1 = document.querySelector("#filter > ul > li:nth-child(1) > a");
 const tag2 = document.querySelector("#filter > ul > li:nth-child(2) > a");
@@ -10,8 +9,6 @@ const tag5 = document.querySelector("#filter > ul > li:nth-child(5) > a");
 const tag6 = document.querySelector("#filter > ul > li:nth-child(6) > a");
 const tag7 = document.querySelector("#filter > ul > li:nth-child(7) > a");
 const tag8 = document.querySelector("#filter > ul > li:nth-child(8) > a");
-
-
 
 
 
