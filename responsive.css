@@ -1,4 +1,259 @@
-@media (min-width: 768px) and (max-width: 1020px) {}
+@media (min-width: 768px) and (max-width: 1020px) {
+
+header {
+  width: 24vw;
+}
+#logo img {
+  width: 21vw;
+}
+.title-page {
+  margin-bottom: 15px;
+  font-size: 2.5vw;
+  line-height: 2vw;
+}
+.list-decimal, .main_nav ul a {
+  font-size: 1.2vmax;
+  line-height: 2vw;
+}
+.left_info > .about_work > p:nth-child(2) {
+  font-size: 1.2vmax;
+}
+.main_nav ul a {
+  font-size: 1.1vmax;
+}
+.wrap {
+  margin-left: 4.3vw;
+}
+.info_work_box .left_info .about_work p, .text-kontent p, .info_home_box .left_info .about_home p {
+  margin-bottom: 2vw;
+}
+#filter ul a, .pr_info .text_info, .pr_feat ul li {
+  font-size: 1.2vmax;
+  line-height: 2vw;
+}
+#filter > ul > li {
+  margin-bottom: 10px;
+}
+#title_filter, .simvolika, .right_info .pr_info ul li, .right_info .pr_info ul li a {
+  font-size: 1.1vmax;
+}
+blockquote {
+  font-size: 1.3vmax;
+  line-height: 2vw;
+}
+.conteiner-content {
+  flex-flow: column;
+}
+.information-activ {
+  flex-flow: column;
+}
+.photo-main {
+  margin-bottom: 20px;
+}
+.pr_text, .pr_gal {
+  width: 90%;
+}
+.pr_text {
+  margin-bottom: 35px;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+.pr_gal .pr_gal_images div {
+  height: 8.06vw;
+  width: 8.06vw;
+}
+.title_info {
+  font-size: 2.25vw;
+  margin-bottom: 2vw;
+  line-height: 2.5vw;
+}
+.right_info .tags, .about_work p {
+  margin-bottom: 2vw;
+}
+.title_info_title {
+  font-size: 2.25vw;
+}
+.list-roman h2 {
+  font-size: 1.4vmax;
+  font-weight: 700;
+  margin-bottom: 1.3vw;
+}
+#apparatus > ul > h3, #primary > ul > li > h3 {
+  margin-bottom: 1vw;
+}
+.text-kontent-wrap {
+  padding-left: 1vw;
+}
+li > h3 {
+  font-size: 1.1vmax;
+}
+#info {
+  width: 6.68vw;
+  height: 6.68vw;
+}
+#info_box li {
+  font-size: 1.1vmax;
+  line-height: 2vw;
+}
+#cop {
+  font-size: 1.1vmax;
+  line-height: 1.8vmax;
+  font-weight: 400;
+}
+body > main > div > div > div > div.about_work > div > ol {
+  font-size: 1.4vmax;
+}
+#soc_bar img {
+  width: 2.25vmax;
+  height: 2.25vmax;
+}
+#soc_bar a {
+  margin-left: 1vmax;
+}
+}
+
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+.info_work_box {
+  flex-direction: column;
+}
+.info_work_box .left_info, .info_work_box .right_info, .info_home_box .right_info, .info_home_box .left_info {
+  width: 94%;
+}
+.line_info {
+  display: none;
+}
+#logo img {
+  width: 21vw;
+}
+.title-page {
+  margin-bottom: 15px;
+  font-size: 3.5vw;
+  line-height: 2vw;
+}
+.list-decimal, .main_nav ul a {
+  font-size: 2.7vw;
+  line-height: 1.8vmax;
+}
+.left_info > .about_work > p:nth-child(2) {
+  font-size: 1.2vmax;
+}
+.main_nav ul a {
+  font-size: 1.1vmax;
+}
+.info_work_box .left_info .about_work p, .text-kontent p, .info_home_box .left_info .about_home p {
+  margin-bottom: 2vw;
+  font-size: 3vw;
+  line-height: 1.8vmax;
+}
+#filter ul a, .pr_info .text_info, .pr_feat ul li {
+  font-size: 3vw;
+  line-height: 1.8vmax;
+}
+#filter > ul > li {
+  margin-bottom: 10px;
+}
+#title_filter, .simvolika, .right_info .pr_info ul li, .right_info .pr_info ul li a {
+  font-size: 1.1vmax;
+}
+.pr_feat ul {
+  margin-bottom: 3.5vw;
+}
+.right_info {
+  padding-left: 0px;
+}
+blockquote {
+  font-size: 3vw;
+  line-height: 1.8vmax;
+}
+.conteiner-content {
+  flex-flow: column;
+}
+.information-activ {
+  flex-flow: column;
+}
+.photo-main {
+  margin-bottom: 20px;
+}
+.pr_text, .pr_gal {
+  width: 90%;
+}
+.pr_text {
+  margin-bottom: 35px;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+.right_info .pr_gal .pr_gal_images div, .pr_gal .pr_gal_images div {
+  height: 10.06vw;
+  width: 10.06vw;
+}
+.title_info {
+  font-size: 3vw;
+  margin-bottom: 2vw;
+  line-height: 2.5vw;
+}
+.right_info .tags, .about_work p {
+  margin-bottom: 2vw;
+  font-size: 3vw;
+}
+.about_work p {
+  line-height: 2vmax;
+}
+.title_info_title {
+  font-size: 3vw;
+}
+.tags .list_tags .tag {
+  font-size: 2.5vw;
+}
+.list-roman h2 {
+  font-size: 1.4vmax;
+  font-weight: 700;
+  margin-bottom: 1.3vw;
+}
+#apparatus > ul > h3, #primary > ul > li > h3 {
+  margin-bottom: 1vw;
+}
+.text-kontent-wrap {
+  padding-left: 1vw;
+}
+li > h3 {
+  font-size: 1.1vmax;
+}
+#info {
+  width: 6.68vw;
+  height: 6.68vw;
+}
+#info_box li {
+  font-size: 1.1vmax;
+  line-height: 2vw;
+}
+#cop {
+  font-size: 1.1vmax;
+  line-height: 1.8vmax;
+  font-weight: 400;
+}
+body > main > div > div > div > div.about_work > div > ol {
+  font-size: 1.4vmax;
+}
+#soc_bar img {
+  width: 2.25vmax;
+  height: 2.25vmax;
+}
+#soc_bar a {
+  margin-left: 1vmax;
+}
+.right_info .tags {
+  margin-bottom: 5vw;
+}
+.right_info .pr_gal {
+  margin-top: 4vw;
+}
 
 
 
@@ -11,7 +266,7 @@
 
 
 
-@media (min-width: 375px) and (max-width: 767px) {}
+}
 
 
 

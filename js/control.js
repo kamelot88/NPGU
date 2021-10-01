@@ -26,3 +26,38 @@ scrollStart.onclick = function() {
    window.scrollTo(0, 0)
 }
 
+
+
+//! Реализация бургер-меню
+const burgerBtn = document.querySelector("body > header > .burger")
+const headerBlock = document.querySelector("body > header");
+const mainBlock = document.querySelector("body > main");
+
+if (document.documentElement.clientWidth <= 767) {
+   headerBlock.classList.add('display-none');
+   mainBlock.style.paddingLeft = "0vw";
+}
+// } else {
+//    headerBlock.classList.remove('display-none');
+//    mainBlock.style.paddingLeft = "15vw";
+// }
+
+
+burgerBtn.onclick = function() {
+   if(navBlock.style.display == "flex") {
+       navBlock.style.display = 'none'
+       burgerBtn.classList.remove('rotation');
+       whiteFill.style.display = 'none';
+   } else {
+       navBlock.style.display = 'flex'
+       whiteFill.style.display = 'block';
+       burgerBtn.classList.add('rotation');
+   } 
+}
+
+const whiteFill = document.querySelector("#white_fill");
+whiteFill.onclick = function () {
+   navBlock.style.display = 'none'
+   whiteFill.style.display = 'none'
+   burgerBtn.classList.remove('rotation');
+}
