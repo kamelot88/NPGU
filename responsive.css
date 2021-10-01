@@ -118,6 +118,27 @@ body > main > div > div > div > div.about_work > div > ol {
 
 @media (min-width: 375px) and (max-width: 767px) {
 
+#head {
+  width: 55vw;
+  left: -55vw;
+}
+main {
+  padding-left: 0;
+  }
+.wrap {
+  padding-left: 15vw;
+}
+.burger {
+  width: 8vw;
+  height: 14vh;
+  border-radius: 0 30px 30px 0;
+  position: relative;
+  left: 55vw;
+  top: 50vh;
+  z-index: 52;
+  background-color: #2f373b;
+  box-shadow: 0 0 17px 10px rgb(70 70 70 / 55%);
+}
 .info_work_box {
   flex-direction: column;
 }
@@ -128,30 +149,33 @@ body > main > div > div > div > div.about_work > div > ol {
   display: none;
 }
 #logo img {
-  width: 21vw;
+  width: 47vw;
+}
+.main_nav ul a {
+  height: 8vmax;
 }
 .title-page {
   margin-bottom: 15px;
-  font-size: 3.5vw;
-  line-height: 2vw;
+  font-size: 3.8vw;
+  line-height: 5vw;
 }
 .list-decimal, .main_nav ul a {
-  font-size: 2.7vw;
+  font-size: 3vw;
   line-height: 1.8vmax;
 }
 .left_info > .about_work > p:nth-child(2) {
   font-size: 1.2vmax;
 }
 .main_nav ul a {
-  font-size: 1.1vmax;
+  font-size: 1.5vmax;
 }
 .info_work_box .left_info .about_work p, .text-kontent p, .info_home_box .left_info .about_home p {
   margin-bottom: 2vw;
-  font-size: 3vw;
+  font-size: 3.5vw;
   line-height: 1.8vmax;
 }
 #filter ul a, .pr_info .text_info, .pr_feat ul li {
-  font-size: 3vw;
+  font-size: 3.5vw;
   line-height: 1.8vmax;
 }
 #filter > ul > li {
@@ -167,7 +191,7 @@ body > main > div > div > div > div.about_work > div > ol {
   padding-left: 0px;
 }
 blockquote {
-  font-size: 3vw;
+  font-size: 3.5vw;
   line-height: 1.8vmax;
 }
 .conteiner-content {
@@ -194,25 +218,25 @@ table {
   width: 10.06vw;
 }
 .title_info {
-  font-size: 3vw;
+  font-size: 3.5vw;
   margin-bottom: 2vw;
   line-height: 2.5vw;
 }
 .right_info .tags, .about_work p {
   margin-bottom: 2vw;
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 .about_work p {
   line-height: 2vmax;
 }
 .title_info_title {
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 .tags .list_tags .tag {
   font-size: 2.5vw;
 }
 .list-roman h2 {
-  font-size: 1.4vmax;
+  font-size: 1.5vmax;
   font-weight: 700;
   margin-bottom: 1.3vw;
 }
@@ -223,18 +247,28 @@ table {
   padding-left: 1vw;
 }
 li > h3 {
-  font-size: 1.1vmax;
+  font-size: 1.2vmax;
 }
 #info {
-  width: 6.68vw;
-  height: 6.68vw;
+  width: 10.68vw;
+  height: 10.68vw;
+}
+#scroll-start {
+  right: 10px;
+}
+#scroll-start:hover {
+  background-color: rgba(45, 184, 185, 0.5);
 }
 #info_box li {
-  font-size: 1.1vmax;
-  line-height: 2vw;
+  font-size: 1.4vmax;
+  line-height: 4vw;
+}
+#info_box svg {
+  height: 4vw;
+  margin-right: 2vw;
 }
 #cop {
-  font-size: 1.1vmax;
+  font-size: 1.2vmax;
   line-height: 1.8vmax;
   font-weight: 400;
 }
@@ -250,6 +284,7 @@ body > main > div > div > div > div.about_work > div > ol {
 }
 .right_info .tags {
   margin-bottom: 5vw;
+  margin-top: 3vw;
 }
 .right_info .pr_gal {
   margin-top: 4vw;
