@@ -30,36 +30,6 @@ scrollStart.onclick = function() {
 
 //! Реализация бургер-меню
 
-
-// if (document.documentElement.clientWidth <= 767) {
-//    headerBlock.classList.add('display-none');
-//    mainBlock.style.paddingLeft = "0vw";
-// }
-// } else {
-//    headerBlock.classList.remove('display-none');
-//    mainBlock.style.paddingLeft = "15vw";
-// }
-
-
-// burgerBtn.onclick = function() {
-//    if(navBlock.style.display == "flex") {
-//        navBlock.style.display = 'none'
-//        burgerBtn.classList.remove('rotation');
-//        whiteFill.style.display = 'none';
-//    } else {
-//        navBlock.style.display = 'flex'
-//        whiteFill.style.display = 'block';
-//        burgerBtn.classList.add('rotation');
-//    }
-// }
-
-// const whiteFill = document.querySelector("#white_fill");
-// whiteFill.onclick = function () {
-//    navBlock.style.display = 'none'
-//    whiteFill.style.display = 'none'
-//    burgerBtn.classList.remove('rotation');
-// }
-
 const headerBlock = document.querySelector("#head");
 const burgerBtn = document.querySelector("#head > div.burger");
 const arrowBurger1 = document.querySelector("#head > div.burger.main_flex_column.flex__jcontent_center > div > svg:nth-child(1)");
@@ -75,6 +45,4 @@ burgerBtn.onclick = function(e) {
       arrowBurger1.classList.remove('rotate-arrow');
       arrowBurger2.classList.remove('rotate-arrow');
    }
-   
-  
 }

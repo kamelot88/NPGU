@@ -374,7 +374,7 @@ main {
 }
 #info_box.open {
   transform: translateX(0%);
-  transition: all .35s;
+  transition: all .5s;
 }
 #info_box li {
   font-size: .83vmax;
