@@ -62,16 +62,19 @@ scrollStart.onclick = function() {
 
 const headerBlock = document.querySelector("#head");
 const burgerBtn = document.querySelector("#head > div.burger");
+const arrowBurger1 = document.querySelector("#head > div.burger.main_flex_column.flex__jcontent_center > div > svg:nth-child(1)");
+const arrowBurger2 = document.querySelector("#head > div.burger.main_flex_column.flex__jcontent_center > div > svg:nth-child(3)");
 
 burgerBtn.onclick = function(e) {
-   if (headerBlock.style.left == -55 +"vw") {
+   if (headerBlock.style.left != 0 + "vw") {
       headerBlock.style.left = 0 + "vw";
+      arrowBurger1.classList.add('rotate-arrow');
+      arrowBurger2.classList.add('rotate-arrow');
    } else {
-      headerBlock.style.left = -55 + "vw";
+      headerBlock.style.left = -65 + "vw";
+      arrowBurger1.classList.remove('rotate-arrow');
+      arrowBurger2.classList.remove('rotate-arrow');
    }
-      
    
-   // if (headerBlock.style.left = 0 + "vw") {
-   //    headerBlock.style.left = -55 + "vw";
-   // }
- }
+  
+}

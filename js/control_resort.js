@@ -90,7 +90,7 @@ for (let elemImagePrew of colectionImagePrewTrus) {
     if (btnZgemchugina.textContent == 'Подробно') {
         btnZgemchugina.textContent = 'Скрыть'
     } else {
-        btnZgemchugina.textContent = 'Скрыть'
+        btnZgemchugina.textContent = 'Подробно'
     }
  }
 

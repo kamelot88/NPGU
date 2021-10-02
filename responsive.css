@@ -112,6 +112,9 @@ body > main > div > div > div > div.about_work > div > ol {
 #soc_bar a {
   margin-left: 1vmax;
 }
+  .conteiner-content > .text-main {
+    width: 100%;
+}
 }
 
 
@@ -119,8 +122,11 @@ body > main > div > div > div > div.about_work > div > ol {
 @media (min-width: 375px) and (max-width: 767px) {
 
 #head {
-  width: 55vw;
-  left: -55vw;
+  width: 65vw;
+  left: -65vw;
+  transition: left .9s;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
 }
 main {
   padding-left: 0;
@@ -129,15 +135,27 @@ main {
   padding-left: 15vw;
 }
 .burger {
-  width: 8vw;
-  height: 14vh;
+  display: block;
+  width: 10vw;
+  height: 15vh;
   border-radius: 0 30px 30px 0;
   position: relative;
-  left: 55vw;
+  left: 65vw;
   top: 50vh;
   z-index: 52;
   background-color: #2f373b;
   box-shadow: 0 0 17px 10px rgb(70 70 70 / 55%);
+  opacity: .9;
+}
+.wrap-burger {
+  height: 100%;
+}
+.wrap-burger svg {
+  margin-left: 3vw;
+}
+.burger h4 {
+  color: #a3a3a3;
+  transform:rotateZ(270deg);
 }
 .info_work_box {
   flex-direction: column;
@@ -149,7 +167,7 @@ main {
   display: none;
 }
 #logo img {
-  width: 47vw;
+  width: 65vw;
 }
 .main_nav ul a {
   height: 8vmax;
@@ -289,7 +307,12 @@ body > main > div > div > div > div.about_work > div > ol {
 .right_info .pr_gal {
   margin-top: 4vw;
 }
-
+.conteiner-content > .text-main {
+  width: 100%;
+}
+#relaxation .photo-main {
+  width: 100%;
+}
 
 
 

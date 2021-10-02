@@ -186,6 +186,13 @@ header {
     color: #6b7072;
     box-shadow: 0 0 17px 10px rgba(70, 70, 70, 0.55);
 }
+.burger {
+  display: none;
+}
+.rotate-arrow {
+  transform:rotateZ(180deg);
+  transition: all .5s;
+}
 .logo-developer {
   font-family: 'Cinzel', serif;
   color: #0087bd;
@@ -714,9 +721,9 @@ th {
   cursor: pointer;
 } 
 #scroll-start > img {
-  height: 60%;
-  width: 60%;
-  transform: rotate(90deg);
+  height: 70%;
+  width: 40%;
+  transform: rotate(180deg);
   margin: 0 auto;
 }
 html {
