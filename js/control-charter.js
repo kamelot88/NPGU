@@ -1,30 +1,3 @@
-//* Реализация информационного табло
-
-const info = document.querySelector("#info");
-const infoBox = document.querySelector("#info_box");
-info.onclick = function () {
-    infoBox.classList.toggle('open');
-};
-
-
-
-
-//! Реализация кнопки scrollStart (возвращение на начало страницы)
-
-const scrollStart = document.querySelector("#scroll-start")
-scrollStart.style.display = 'none';
-window.onscroll = function() {
-   if (window.pageYOffset >= "400") {
-       scrollStart.style.display = 'block'
-    } else {
-       scrollStart.style.display = 'none'
-    }
-}
-scrollStart.onclick = function() {
-   window.scrollTo(0, 0)
-}
-
-
 
 //! Реализация бургер-меню
 
@@ -45,6 +18,15 @@ burgerBtn.onclick = function(e) {
    }
 }
 
+
+//? Реализация информационного табло
+
+const info = document.querySelector("#info");
+const infoBox = document.querySelector("#info_box");
+info.onclick = function () {
+    infoBox.classList.toggle('open');
+};
+
 // Якоря_начало
 const tag1 = document.querySelector("#filter > ul > li:nth-child(1) > a");
 const tag2 = document.querySelector("#filter > ul > li:nth-child(2) > a");
@@ -55,10 +37,22 @@ const tag6 = document.querySelector("#filter > ul > li:nth-child(6) > a");
 const tag7 = document.querySelector("#filter > ul > li:nth-child(7) > a");
 const tag8 = document.querySelector("#filter > ul > li:nth-child(8) > a");
 
+//! Реализация кнопки scrollStart (возвращение на начало страницы)
 
+const scrollStart = document.querySelector("#scroll-start")
+scrollStart.style.display = 'none';
+
+scrollStart.onclick = function() {
+   window.scrollTo(0, 0)
+}
 
 
 window.onscroll = function () {
+  if (window.pageYOffset >= "400") {
+    scrollStart.style.display = 'block'
+ } else {
+    scrollStart.style.display = 'none'
+ }
    let scrollTop = window.pageYOffset;
    if (scrollTop >= 0 && scrollTop < 688) {
     tag1.classList.add('scroll');

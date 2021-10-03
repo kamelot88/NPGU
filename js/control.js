@@ -1,6 +1,6 @@
 
 
-// Реализация информационного табло
+//? Реализация информационного табло
 
 const info = document.querySelector("#info");
 const infoBox = document.querySelector("#info_box");

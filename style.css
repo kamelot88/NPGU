@@ -726,6 +726,12 @@ th {
   transform: rotate(180deg);
   margin: 0 auto;
 }
+#scroll-start span {
+  font-family: 'Myriad Pro';
+  font-size: 3.5vw;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+}
 html {
   scroll-behavior: smooth;
 }

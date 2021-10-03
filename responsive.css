@@ -176,6 +176,9 @@ main {
   font-size: 3.8vw;
   line-height: 5vw;
 }
+#scroll-start span {
+  font-size: 13.5vw;
+}
 .list-decimal, .main_nav ul a {
   font-size: 3vw;
   line-height: 1.8vmax;
@@ -285,6 +288,8 @@ li > h3 {
   font-size: 1.5vmax;
   font-weight: 700;
   margin-bottom: 5vw;
+  line-height: 2vh;
+  text-align: center;
 }
 #info_box svg {
   height: 4vw;
