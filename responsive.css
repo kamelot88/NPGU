@@ -250,6 +250,13 @@ table {
   border-collapse: collapse;
   width: 90%;
 }
+.info_work_box .left_info .img_box_work {
+  height: 17vh;
+}
+.simvolika {
+  font-size: 4vw;
+  line-height: 2vh;
+}
 .right_info .pr_gal .pr_gal_images div, .pr_gal .pr_gal_images div {
   height: 10.06vw;
   width: 10.06vw;

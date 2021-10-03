@@ -434,7 +434,7 @@ main {
   box-shadow: 0 0 15px rgb(209 209 209 / 50%);
 }
 .info_work_box .left_info .img_box_work {
-  height: 17vh;
+    height: 31vh;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
