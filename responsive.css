@@ -173,7 +173,7 @@ main {
 }
 .title-page {
   margin-bottom: 15px;
-  font-size: 3.8vw;
+  font-size: 4.5vw;
   line-height: 5vw;
 }
 #scroll-start span {
@@ -194,6 +194,9 @@ main {
   font-size: 3.5vw;
   line-height: 1.8vmax;
 }
+#zaslugi {
+  font-size: 4.5vw;
+}
 #filter ul a, .pr_info .text_info, .pr_feat ul li {
   font-size: 3.5vw;
   line-height: 1.9vmax;
@@ -204,8 +207,15 @@ main {
 #filter > ul > li {
   margin-bottom: 0px;
 }
-#title_filter, .simvolika, .right_info .pr_info ul li, .right_info .pr_info ul li a {
+#title_filter, .right_info .pr_info ul li, .right_info .pr_info ul li a {
   font-size: 1.8vmax;
+}
+#zadachi {
+  font-size: 4.5vw;
+  line-height: 2vh;
+}
+.title_info_title {
+  font-size: 4.5vw;
 }
 .right_info .pr_info ul li {
   margin-top: 3vh;
@@ -247,7 +257,7 @@ table {
 .title_info {
   font-size: 4.5vw;
   margin-bottom: 2vh;
-  line-height: 4.5vw;
+  line-height: 5vw;
 }
 .right_info .tags, .about_work p {
   margin-bottom: 2vw;
@@ -265,16 +275,22 @@ table {
 .list-roman h2 {
   font-size: 3.7vw;
   font-weight: 700;
-  margin-bottom: 2vw;
+  margin-bottom: 4vw;
+  line-height: 2vh;
 }
-#apparatus > ul > h3, #primary > ul > li > h3 {
-  margin-bottom: 1vw;
+ul > h3 {
+  line-height: 2vh;
+}
+.rel_images div {
+  width: 50%;
 }
 .text-kontent-wrap {
   padding-left: 1vw;
 }
 li > h3 {
-  font-size: 1.2vmax;
+  font-size: 3.5vw;
+  margin-bottom: .7vh;
+  line-height: 2vh;
 }
 .adress {
   margin-bottom: 2vh;
@@ -335,7 +351,9 @@ body > main > div > div > div > div.about_work > div > ol {
 #relaxation .photo-main {
   width: 100%;
 }
-
+.info_work_box .left_info .img_box_work {
+  margin-bottom: 2vh;
+}
 
 
 
