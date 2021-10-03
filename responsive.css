@@ -198,11 +198,18 @@ main {
   font-size: 3.5vw;
   line-height: 1.9vmax;
 }
+.pr_info {
+  margin-bottom: 3vh;
+}
 #filter > ul > li {
   margin-bottom: 0px;
 }
 #title_filter, .simvolika, .right_info .pr_info ul li, .right_info .pr_info ul li a {
   font-size: 1.8vmax;
+}
+.right_info .pr_info ul li {
+  margin-top: 3vh;
+  line-height: 3vh;
 }
 .pr_feat ul {
   margin-bottom: 3.5vw;
@@ -238,9 +245,9 @@ table {
   width: 10.06vw;
 }
 .title_info {
-  font-size: 3.5vw;
-  margin-bottom: 2vw;
-  line-height: 2.5vw;
+  font-size: 4.5vw;
+  margin-bottom: 2vh;
+  line-height: 4.5vw;
 }
 .right_info .tags, .about_work p {
   margin-bottom: 2vw;
@@ -268,6 +275,10 @@ table {
 }
 li > h3 {
   font-size: 1.2vmax;
+}
+.adress {
+  margin-bottom: 2vh;
+  line-height: 3vh;
 }
 #info {
   width: 10.68vw;

@@ -1,3 +1,22 @@
+//! Реализация бургер-меню
+
+const headerBlock = document.querySelector("body > .head-resort");
+const burgerBtn = document.querySelector("#head > div.burger-resort");
+const arrowBurger1 = document.querySelector("#head > div.burger.burger-resort > div > svg.arrow_resort1");
+const arrowBurger2 = document.querySelector("#head > div.burger.burger-resort > div > svg.arrow_resort2");
+
+burgerBtn.onclick = function(e) {
+   if (headerBlock.style.left != 0 + "vw") {
+      headerBlock.style.left = 0 + "vw";
+      arrowBurger1.classList.add('rotate-arrow');
+      arrowBurger2.classList.add('rotate-arrow');
+   } else {
+      headerBlock.style.left = -65 + "vw";
+      arrowBurger1.classList.remove('rotate-arrow');
+      arrowBurger2.classList.remove('rotate-arrow');
+   }
+};
+
 
 //! скрипт галереи Жемчужина азова
 

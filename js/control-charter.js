@@ -1,10 +1,11 @@
 
+
 //! Реализация бургер-меню
 
-const headerBlock = document.querySelector("#head");
-const burgerBtn = document.querySelector("#head > div.burger");
-const arrowBurger1 = document.querySelector("#head > div.burger.main_flex_column.flex__jcontent_center > div > svg:nth-child(1)");
-const arrowBurger2 = document.querySelector("#head > div.burger.main_flex_column.flex__jcontent_center > div > svg:nth-child(3)");
+const headerBlock = document.querySelector("body > .head-charter");
+const burgerBtn = document.querySelector("#head > div.burger-charter");
+const arrowBurger1 = document.querySelector("#head > div.burger.burger-charter.main_flex_column.flex__jcontent_center > div > svg.arrow_charter1");
+const arrowBurger2 = document.querySelector("#head > div.burger.burger-charter.main_flex_column.flex__jcontent_center > div > svg.arrow_charter2");
 
 burgerBtn.onclick = function(e) {
    if (headerBlock.style.left != 0 + "vw") {
@@ -16,7 +17,8 @@ burgerBtn.onclick = function(e) {
       arrowBurger1.classList.remove('rotate-arrow');
       arrowBurger2.classList.remove('rotate-arrow');
    }
-}
+};
+
 
 
 //? Реализация информационного табло
