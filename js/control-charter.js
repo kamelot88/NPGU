@@ -15,8 +15,7 @@ const scrollStart = document.querySelector("#scroll-start")
 scrollStart.style.display = 'none';
 window.onscroll = function() {
    if (window.pageYOffset >= "400") {
-       console.log('привет')
-    scrollStart.style.display = 'block'
+       scrollStart.style.display = 'block'
     } else {
        scrollStart.style.display = 'none'
     }
