@@ -86,10 +86,10 @@ for (let elemImagePrew of colectionImagePrewKab) {
 }
 
 
-//? скрипт галереи Трускавец - Шахтер
+//? скрипт галереи Трускавец - Молдова
 
-let colectionImagePrewTrus = document.querySelectorAll("#relaxation > div.truskavetc.main_flex_column.flex__align-items_center > div.add.truskavetc-add.main_flex_column.flex__align-items_center > div > div.pr_gal > div.pr_gal_images.main_flex.flex__jcontent_around > div");
-let imagePrewTrus = document.querySelector("#relaxation > div.truskavetc.main_flex_column.flex__align-items_center > div.add.truskavetc-add.main_flex_column.flex__align-items_center > div > div.pr_gal > div.imag-preview");
+let colectionImagePrewTrus = document.querySelectorAll("#relaxation > div.truskavetc.main_flex_column.flex__align-items_center > div > div.add.truskavetc-add.display-none.main_flex_column.flex__align-items_center > div > div.pr_gal > div.pr_gal_images.main_flex.flex__jcontent_around > div");
+let imagePrewTrus = document.querySelector("#relaxation > div.truskavetc.main_flex_column.flex__align-items_center > div > div.add.truskavetc-add.display-none.main_flex_column.flex__align-items_center > div > div.pr_gal > div.imag-preview");
 
 imagePrewTrus.innerHTML = colectionImagePrewTrus[0].innerHTML;
 
@@ -98,6 +98,21 @@ for (let elemImagePrew of colectionImagePrewTrus) {
       imagePrewTrus.innerHTML = elemImagePrew.innerHTML;
    }
 }
+
+//! скрипт галереи Шепот Карпат
+
+let colectionImagePrewShep = document.querySelectorAll("#relaxation > div.shepot.main_flex_column.flex__align-items_center > div.add.shepot-add.display-none.main_flex_column.flex__align-items_center > div > div.pr_gal > div.pr_gal_images.main_flex.flex__jcontent_around > div");
+let imagePrewShep = document.querySelector("#relaxation > div.shepot.main_flex_column.flex__align-items_center > div.add.shepot-add.display-none.main_flex_column.flex__align-items_center > div > div.pr_gal > div.imag-preview");
+
+imagePrewShep.innerHTML = colectionImagePrewShep[0].innerHTML;
+
+for (let elemImagePrew of colectionImagePrewShep) {
+   elemImagePrew.onclick = function() {
+      imagePrewShep.innerHTML = elemImagePrew.innerHTML;
+   }
+}
+
+
 
 
 //? скрипт открытие/скрытия блоков
@@ -211,13 +226,25 @@ for (let elemImagePrew of colectionImagePrewTrus) {
     }
  }
 
- const btnTruskavetc = document.querySelector("#relaxation > div.truskavetc.main_flex_column.flex__align-items_center > button");
- const truskavetcAdd = document.querySelector("#relaxation > div.truskavetc.main_flex_column.flex__align-items_center > div.add.truskavetc-add.main_flex_column.flex__align-items_center");
+ const btnTruskavetc = document.querySelector("#relaxation > div.truskavetc.main_flex_column.flex__align-items_center > div > button");
+ const truskavetcAdd = document.querySelector("#relaxation > div.truskavetc.main_flex_column.flex__align-items_center > div > div.add.truskavetc-add.display-none.main_flex_column.flex__align-items_center");
  btnTruskavetc.onclick = function() {
     truskavetcAdd.classList.toggle('display-none')
     if (btnTruskavetc.textContent == 'Подробно') {
         btnTruskavetc.textContent = 'Скрыть'
     } else {
         btnTruskavetc.textContent = 'Подробно'
+    }
+ }
+
+ const btnShepot = document.querySelector("#relaxation > div.shepot.main_flex_column.flex__align-items_center > button");
+ const shepotcAdd = document.querySelector("#relaxation > div.shepot.main_flex_column.flex__align-items_center > div.add.shepot-add.display-none.main_flex_column.flex__align-items_center");
+
+ btnShepot.onclick = function() {
+   shepotcAdd.classList.toggle('display-none')
+    if (btnShepot.textContent == 'Подробно') {
+      btnShepot.textContent = 'Скрыть'
+    } else {
+      btnShepot.textContent = 'Подробно'
     }
  }
