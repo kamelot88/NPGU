@@ -32,6 +32,16 @@ li {
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
+
+/*! Запрет на выделение текста */
+li, p, h4, h3, h2, h1, .tag {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 /*Flex Framework_начало*/
 
 .main_flex {
@@ -605,6 +615,11 @@ main {
   margin-bottom: 40px;
   border-bottom: 1px solid;
 }
+.list-roman-none {
+  list-style: none;
+  margin-bottom: 40px;
+  border-bottom: 1px solid;
+}
 .list-decimal {
   list-style: decimal;
 }
@@ -797,4 +812,22 @@ html {
 }
 .pr_gal_images > div:hover {
   outline: 3px solid rgba(45, 184, 185, 0.6);
- }
+}
+ .coll_work > .text-kontent-wrap ol { 
+   counter-reset: item;
+}
+
+.coll_work > .text-kontent-wrap li { 
+  display: block;
+}
+
+.coll_work > .text-kontent-wrap li:before { 
+  content: counters(item, ".") ". "; counter-increment: item;
+}
+/* .coll_work > .text-kontent-wrap > ol > li > ol > li {
+  display: flex;
+  flex-direction: row;
+} */
+.coll_work > .text-kontent-wrap > ol > li::before {
+  color: #fff;
+}
