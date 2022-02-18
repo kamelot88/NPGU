@@ -254,7 +254,7 @@ header {
     text-align: right;
 }
 #filter ul a {
-    font-size: 0.8vmax;
+    font-size: 1vmax;
     line-height: 1.6vmax;
     font-weight: 300;
     text-align: right;
@@ -394,7 +394,6 @@ main {
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
-  line-height: .78vmax;
   margin-bottom: 1vw;
 }
 #info_box li a {
@@ -593,7 +592,7 @@ main {
 .pr_feat ul li {
   list-style-image: url(img/checkmark-round_icon-icons.com_50430.png);
   margin-bottom: .52vw;
-  font-size: .72vw;
+  font-size: 1.1vw;
   font-weight: 400;
   color: #848484;
 }
@@ -830,4 +829,10 @@ html {
 } */
 .coll_work > .text-kontent-wrap > ol > li::before {
   color: #fff;
+}
+.coll-table li a:visited {
+  color: blue;
+}
+.coll-table > li > a {
+  font-size: 1.1vw;
 }
